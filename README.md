@@ -296,3 +296,53 @@ You can create tables by assembling a list of words and dividing them with hyphe
     </td>
   </tr>
 </table>
+
+## 11th June 2021
+Today I learned two topics:
+
+1. The First Steps into the world of databases.
+2. What is an ER - Model and how do you create it.
+
+__Why Databases?__
+
+* Security against losses
+* Access to data of multiple users
+* Structured deposit of the data
+
+__The 9 Cood's Requirements__
+
+1. Integration
+2. Operation
+3. Data Dictionary
+4. User View
+5. Integrity Assurance
+6. Access Control
+7. Transaction
+8. Synchronisation
+9. Data Backup
+
+__Data Modeling__
+
+Cutout -> Conceptual scheme  -> Logical scheme -> Query & Manipulation
+
+__Entity Relationship Model (ER - Model)__
+
+* Models entities and the relationships between them
+  1. Entity
+    * Object about which information is to be stored (Ex.: lecture, professor, exam)
+  2. Relationship
+    * Relationship between entities (Ex: Professor reads lecture)
+  3. Attribute
+    * Property of entities or relations (name, title,...)
+  4. Values
+    * Primitive data elements that can be created directly
+    * Values are described by data types
+  5. Data types
+    * Given default data types (Ex: int, varchar, date)
+
+__Key__
+
+* The values of the key attributes uniquely identify entities
+* If there are several key candidates, a primary key must be choosen (underline in the model)
+
+*End of Diary*
